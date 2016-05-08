@@ -15,19 +15,21 @@
         android:layout_height="wrap_content"
         android:text="@string/entrada"
         android:textSize="@dimen/size_entrada"
-        android:padding="@dimen/size_padding"
+        android:padding="@dimen/size_padding_land"
         android:layout_alignParentTop="true"
         android:layout_marginTop="@dimen/size_marginTop"
         android:layout_centerHorizontal="true"
         android:textColor="@android:color/background_light"
-        android:textStyle="bold"/>
+        android:textStyle="bold" />
 
     <Button
         android:layout_width="@dimen/alto_boton"
         android:layout_height="@dimen/ancho_boton"
         android:text="@string/boton_entrada"
         android:id="@+id/button"
-        android:layout_centerVertical="true"
+        android:layout_centerVertical="false"
+        android:layout_marginTop="@dimen/size_marginTop_Land"
         android:layout_centerHorizontal="true"
         android:textSize="@dimen/size_entrar"
+        />
 </RelativeLayout>
