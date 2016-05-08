@@ -30,4 +30,5 @@
         android:layout_centerVertical="true"
         android:layout_centerHorizontal="true"
         android:textSize="@dimen/size_entrar"
+        android:textAllCaps="false"/>
 </RelativeLayout>
